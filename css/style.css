@@ -247,6 +247,9 @@ body {
   border-radius: 30%;
   color: #00b6b6;
   background-color: transparent; }
+  @media only screen and (max-width: 75em) {
+    .ind2_btn {
+      font-size: small; } }
 
 .card {
   perspective: 150rem;
