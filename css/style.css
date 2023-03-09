@@ -441,6 +441,8 @@ body {
   font-size: 1.5rem;
   padding: 2.5rem;
   text-align: center;
+  height: 23rem;
+  width: 23rem;
   border-radius: 3px;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
   transition: transform .3s; }
@@ -469,8 +471,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 20rem;
-  height: 20rem;
+  width: 23rem;
+  height: 23rem;
   margin: 0 5rem 0 5rem; }
   @media only screen and (max-width: 75em) {
     .ind2-feature-box {
