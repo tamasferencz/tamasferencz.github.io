@@ -449,6 +449,10 @@ body {
   @media only screen and (max-width: 56.25em) {
     .feature-box {
       padding: 2rem; } }
+  @media only screen and (max-width: 75em) {
+    .feature-box {
+      height: auto;
+      width: auto; } }
   .feature-box__icon {
     font-size: 6rem;
     margin-bottom: .5rem;
