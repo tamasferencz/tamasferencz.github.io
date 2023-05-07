@@ -339,11 +339,11 @@ body {
     text-align: center;
     color: #fff;
     margin-bottom: 8rem; }
-  .card__price-only {
+  .card__back-only {
     font-size: 1.4rem;
     color: #fff;
     text-transform: uppercase; }
-  .card__price-value {
+  .card__back-value {
     font-size: 6rem;
     color: #fff;
     font-weight: 100;
@@ -374,7 +374,7 @@ body {
         padding: 7rem 4rem 4rem 4rem; }
       .card__feature-box {
         margin-bottom: 3rem; }
-      .card__price-value {
+      .card__back-value {
         font-size: 4rem; } }
 
 .composition {
@@ -511,7 +511,7 @@ body {
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
     border-bottom: 3px solid #00b6b6; }
   .form__input:focus:invalid {
-    border-bottom: 3px solid #292987; }
+    border-bottom: 3px solid red; }
   .form__input::-webkit-input-placeholder {
     color: #999; }
 
