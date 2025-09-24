@@ -3,7 +3,7 @@
 You can reach the page on this link:
 
 ```bash
-tamasferencz12.github.io
+tamasferencz.github.io
 ```
 
 ### Story behind this page
