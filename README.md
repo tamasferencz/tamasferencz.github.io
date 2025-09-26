@@ -2,6 +2,5 @@
 
 You can visit my portfolio at:
 
-```text
-https://tamasferencz.github.io
+[https://tamasferencz.github.io](https://tamasferencz.github.io)
 
