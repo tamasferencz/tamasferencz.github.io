@@ -1,11 +1,7 @@
-# School Project
+# Portfolio Website
 
-You can reach the page on this link:
+You can visit my portfolio at:
 
-```bash
-tamasferencz.github.io
-```
+```text
+https://tamasferencz.github.io
 
-### Story behind this page
-
-I had an idea to create a website about my coding life, my journey in it and my style of coding.
