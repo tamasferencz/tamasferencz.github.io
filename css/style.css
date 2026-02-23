@@ -213,8 +213,28 @@ body {
   font-weight: 700;
   text-transform: uppercase;
 }
+@media only screen and (max-width: 56.25em) {
+  .heading-tertiary {
+    font-size: 1.5rem;
+  }
+}
+@media only screen and (max-width: 37.5em) {
+  .heading-tertiary {
+    font-size: 1.4rem;
+  }
+}
 .paragraph {
   font-size: 1.6rem;
+}
+@media only screen and (max-width: 56.25em) {
+  .paragraph {
+    font-size: 1.5rem;
+  }
+}
+@media only screen and (max-width: 37.5em) {
+  .paragraph {
+    font-size: 1.4rem;
+  }
 }
 .paragraph:not(:last-child) {
   margin-bottom: 3rem;
@@ -227,6 +247,11 @@ body {
 }
 .u-margin-bottom-small {
   margin-bottom: 1.5rem !important;
+}
+@media only screen and (max-width: 37.5em) {
+  .u-margin-bottom-small {
+    margin-bottom: 1rem !important;
+  }
 }
 .u-margin-bottom-medium {
   margin-bottom: 4rem !important;
@@ -724,7 +749,7 @@ body {
   font-size: 1.5rem;
   padding: 2.5rem;
   text-align: center;
-  height: 23rem;
+  min-height: 23rem;
   width: 23rem;
   border-radius: 3px;
   -webkit-box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
@@ -733,15 +758,29 @@ body {
   transition: -webkit-transform 0.3s;
   transition: transform 0.3s;
   transition: transform 0.3s, -webkit-transform 0.3s;
+  overflow: visible;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
+  line-height: 1.6;
 }
 @media only screen and (max-width: 56.25em) {
   .feature-box {
     padding: 2rem;
+    font-size: 1.4rem;
+    min-height: auto;
+    width: auto;
+  }
+}
+@media only screen and (max-width: 37.5em) {
+  .feature-box {
+    padding: 1.5rem;
+    font-size: 1.3rem;
   }
 }
 @media only screen and (max-width: 75em) {
   .feature-box {
-    height: auto;
+    min-height: auto;
     width: auto;
   }
 }
@@ -783,7 +822,7 @@ body {
   font-size: 1.5rem;
   padding: 2.5rem;
   text-align: center;
-  height: 23rem;
+  min-height: 23rem;
   width: 23rem;
   border-radius: 3px;
   -webkit-box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
@@ -792,15 +831,29 @@ body {
   transition: -webkit-transform 0.3s;
   transition: transform 0.3s;
   transition: transform 0.3s, -webkit-transform 0.3s;
+  overflow: visible;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
+  line-height: 1.6;
 }
 @media only screen and (max-width: 56.25em) {
   .ind2-feature-box {
     padding: 2rem;
+    font-size: 1.4rem;
+    min-height: auto;
+    width: auto;
+  }
+}
+@media only screen and (max-width: 37.5em) {
+  .ind2-feature-box {
+    padding: 1.5rem;
+    font-size: 1.3rem;
   }
 }
 @media only screen and (max-width: 75em) {
   .ind2-feature-box {
-    height: auto;
+    min-height: auto;
     width: auto;
   }
 }
